@@ -1,0 +1,10 @@
+.head_input div{display:inline-block; padding:4px; width:140px; border-bottom:1px dashed #CCC; margin-bottom:10px;}
+.head_input input[type=text] {width:300px;}
+.head_input input[type=file] {width:300px;}
+.editor_div {margin-top:26px !important}
+.form_add {display:block; padding:8px !important; margin-top:6px; font-size:18px;}
+
+.button_enabl:hover {cursor:pointer;}
+.fadein_news {color:#09F;}
+.history {padding:8px; color:#333; padding-left:2px; font-size:13px;}
+.history a {color:#333; font-size:13px;}

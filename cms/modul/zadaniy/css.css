@@ -1,0 +1,117 @@
+.fadein_news {color:#09F;}
+
+.boxZadach {
+    border:1px slid #999;
+    background-color: #f9f9f9;
+    border: 1px solid #eceaea;
+    margin-bottom: 20px;
+    padding: 16px;
+    margin-top: 10px;
+    line-height: 18px;
+    font-size: 13px;
+    transition: 0.15s all;
+    position: relative;
+}
+
+.boxZadach:hover {
+    background-color: #f1f1f1;
+    border: 1px solid #e5e4e4;
+}
+
+.boxZayvkiLink {
+    margin-bottom: 15px;
+}
+
+.boxZayvkiLink a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 13px;
+    font-weight: bold !important;
+}
+
+.boxZayvkiLink a:hover {
+    color:#d11515;
+}
+
+.boxZadach-name {
+    margin-bottom:10px;
+}
+
+.boxZadach-cat {
+    margin-bottom:10px;
+    border-bottom: 1px dotted #999;
+    display: inline-block;
+    color:#838383
+}
+
+
+.boxZadach-text {
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.dateZadach {
+    font-style: normal;
+    font-size: 13px;
+}
+
+.frmLineZadaniy {
+    margin-bottom: 10px;
+}
+
+
+.frmLineZadaniy span {
+    display: inline-block;
+    width: 100px;
+}
+
+.frmLineZadaniy input[type=text] {
+    padding: 6px;
+    width: 250px
+}
+
+
+.frmZadaniy textarea {
+    display: block;
+    padding: 6px;
+    width: 550px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.frmZadaniy select {
+    padding: 6px;
+}
+
+.del_zadanie1 {
+    position: absolute;
+    top: 15px;
+    right: 19px;
+}
+
+.boxZadach-inwork {
+    font-size:12px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:#13b39e
+}
+
+.boxZadach-ispol {
+    font-size:12px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #4375AC
+}
+
+.endzayvka_class {
+    opacity:0.6
+}
+
+.nameUserZadach p {
+    display: inline-block;
+    margin-right: 2px;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}

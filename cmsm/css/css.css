@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kdb, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	padding: 0;
+	outline: 0;
+	font-family: inherit; 
+	vertical-align: baseline;
+	vertical-align:top;
+	}
+	
+h1 {font-size:26px;}
+/* помните об определении стиля focus! */
+:focus {
+	outline: 0;
+	}
+body {
+	line-height: 1;
+	margin:0px;
+	color: #000;
+	background: white;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(../img/bg.jpg) no-repeat top left fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;		
+	}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	}
+blockquote, q { 
+	quotes: "" "";
+	}
+	
+.gallery_fancybox {text-decoration:none;}
+
+.head_mini {padding:15px; font-size:14px; position:relative;  font-weight:bold; color:#FFF; -moz-box-shadow: 0 0 5px #fff;
+ -webkit-box-shadow: 0 0 5px #fff;
+ box-shadow: 0 0 5px #fff;
+	background:url(../img/bg.jpg) no-repeat top left fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;		 
+ }
+
+.footor_mini {
+padding:8px; font-size:12px; position:relative; font-weight:bold; color:#FFF; text-align:center	;
+	background:url(../img/bg.jpg) no-repeat top left fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;	
+}
+
+#back {width:20px; height:16px;
+	display:block;
+	background-image:url(../img/back.png);
+	background-position:0px -16px;
+}
+
+#back:hover {width:20px; height:16px;
+	background-image:url(../img/back.png); 
+	background-position:0px 0px;
+}
+
+#easyTooltip {
+	padding:5px 10px;
+	border:1px solid #252527;
+	background-color:#5d5f65;
+	color:#dedede;
+	z-index:15;
+	}
+li {margin-left:13px;}	
+	
+.tr_1 {
+    background: #dcfff1; /* Цвет фона четных строк */
+   }
+
+.tr_0 {
+    background: #dcf5ff; /* Цвет фона четных строк */
+   }
+
+#prise {
+    border-collapse: collapse; /* Убираем двойные границы между ячейками */
+    border: 2px solid #666; /* Рамка вокруг таблицы */
+   }
+
+   
+#prise.tr,th {
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #666; /* Рамка вокруг ячеек */
+   }
+   
+H2 {display:inline-block; font-size:14px}
+   
+   
+.top_block {background-color:#1283d2; height:100%; width:100%; z-index:1000; background-image:url(../img/bg_right_block.png); background-repeat:repeat-x; display:none;-moz-box-shadow: 0 0 5px #fff;  -webkit-box-shadow: 0 0 5px #fff;  box-shadow: 0 0 5px #fff; position:absolute; top:0px; left:0px; background-image:url(../img/bg.jpg)}   
+#telo {overflow:hidden; width:100%; line-height:22px}
+.top_block a {display:block; padding:8px; color:#FFF; font-size:23px; font-weight:bold}
+.main_menu a {display:block; padding:15px; font-size:19px; text-align:left; color:#000;  border-radius:7px 7px 7px 7px; text-decoration:none;  margin:4px; margin-right:4px; color:#009dde; font-weight:bold; border:1px dotted #009dde; border:1px dotted #009dde; margin-bottom:8px; position:relative; background-color:#fcfeff}
+
+
+.title_page {font-size:22px; color:#00b0f0; font-weight:bold; padding:9px; text-align:center}
+
+.dopinf_zayvki {position:absolute; top:15px; right:10px; font-size:16px;}
+.inf_block {padding:3px; border:1px dotted #00a2e3; background-color:#f6fcff;}
+.inf_block span {font-weight:bold;}
+
+.pole_enter {display:block; width:80%; margin:auto; padding:10px; font-size:19px; color:#02296c; border:1px solid #011b52; border-radius:5px 5px 5px 5px; margin-bottom:10px}
+
+.label_enter {display:block; width:80%; margin:auto; padding:10px; font-size:19px; color:#fff; margin-bottom:10px}
+.label_enter input {padding:10px; font-size:19px; color:#02296c;}
+
+
+.b_ent {display:inline-block; margin:auto; padding:10px; font-size:18px; font-weight:bold; color:#FFF; background-color:#d50019; text-align:center; border-radius:5px 5px 5px 5px; margin-top:10px; cursor:pointer;}
+
+.main_bg_preload {background-color:rgba(0,0,0,0.5); background-repeat:no-repeat; background-position:50px center; position:fixed; top:0px; left:0px; width:100%; height:100%; z-index:100; text-align:center; padding-top:80px; display:none}
+
+.box_inf_zakaz_list {
+	font-size:12px;
+}
+
+.box_inf_zakaz_list-btn {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+	background-color: #4477B0;
+	padding: 8px;
+	padding-left: 14px;
+	padding-right: 14px;
+	border-radius:3px;
+}
+
+.line_goods_zakaz {
+	padding-bottom:4px;
+	border-bottom: 1px solid #cbcbcb;
+	font-size: 11px;
+}

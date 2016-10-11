@@ -1,0 +1,78 @@
+.fadein_news {color:#09F;}
+.img_settings {opacity:0.8}
+.img_settings:hover {opacity:1}
+.div_modul {padding:4px;  background-color:#f3f7ff; border-left:2px solid #f3f7ff; border-bottom:1px dotted #999}
+.div_modul:hover {background-color:#e7eefc; border-left:2px solid #d3e0fb;}
+.span_ch {display:none; color:#F00; margin-left:13px; font-size:12px}
+.form_admin_contacts div {display:inline-block; width:97px; border-bottom:1px solid #CCC;}
+.form_admin_contacts input[type=text] {width:400px; display:inline-block}
+.form_admin_contacts p {margin-bottom:4px;}
+
+
+.form_users {font-size:12px !important;}
+.form_users div {display:inline-block; width:137px; border-bottom:1px solid #CCC; font-size:12px !important;}
+.form_users input[type=text] {width:400px; display:inline-block}
+.form_users span {width:400px; display:inline-block; font-weight:bold; font-size:12px !important;}
+.form_users p {margin-bottom:4px;}
+
+.inf_domain {border:1px dotted #0CF; padding:10px; width:410px; font-size:11px; line-height:20px; background-color:#fcffff}
+
+
+.btn_main_adm {display:inline-block; padding:10px; background-color:#fffff4; color:#333; border:1px solid #eaeaea; margin-bottom:7px}
+.btn_main_adm:hover {background-color:#f4f4f4;}
+
+
+.btn_nav_vnedr {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 4px 4px 0px 0px;
+	color: #fff;
+	font-size: 13px;
+	background-color: #4274AB;
+	text-decoration: none;
+	margin-right: -2px;
+	border: 1px solid #21466e;
+}
+
+.btn_nav_vnedr:hover {
+	opacity: 0.9;
+}
+
+.btn_nav_vnedr_h {
+	background-color: #21466e;
+	border: 1px solid #000;
+}
+
+
+.box_vnedr {
+	display: none;
+	max-width: 720px;
+	border:1px solid #b4b4b4;
+	border-radius: 5px;
+}
+
+.vnedrenie_oboznach {
+	font-size: 12px; 
+	color:#333; 
+	margin-top: 6px;
+	line-height: 18px;
+}
+
+
+.vnedrenie_oboznach span {
+	color:#266003
+}
+
+.desc_goods {
+	width: 550px;
+	height: 60px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+
+.title_pole_vnedr {
+	font-size:12px;
+	color: #000;
+	margin-top: 8px;
+}

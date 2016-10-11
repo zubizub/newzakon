@@ -1,0 +1,342 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kdb, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	padding: 0;
+	outline: 0;
+	font-family: inherit; 
+	vertical-align: baseline; 
+	vertical-align:top;
+	}
+	
+h1 {font-size:26px;}
+/* помните об определении стиля focus! */
+:focus {
+	outline: 0;
+	}
+body {
+	line-height: 1;
+	margin:0px;
+	color: #000;
+	background: white;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+/*	background:url(../img/bg.jpg) no-repeat top left fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;		*/
+	}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	}
+blockquote, q { 
+	quotes: "" "";
+	}
+	
+.gallery_fancybox {text-decoration:none;}
+
+.head_mini {padding:15px; font-size:14px; position:relative;  font-weight:bold; color:#FFF; -moz-box-shadow: 0 0 5px #fff;
+ -webkit-box-shadow: 0 0 5px #fff;
+ box-shadow: 0 0 5px #fff;
+	background:url(../img/bg.jpg) no-repeat top left fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;		 
+ }
+
+.footor_mini {
+padding:8px; font-size:12px; position:relative; font-weight:bold; color:#FFF; text-align:center	;
+	background:url(../img/bg.jpg) no-repeat top left fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;	
+}
+
+#back {width:20px; height:16px;
+	display:block;
+	background-image:url(../img/back.png);
+	background-position:0px -16px;
+}
+
+#back:hover {width:20px; height:16px;
+	background-image:url(../img/back.png); 
+	background-position:0px 0px;
+}
+
+#easyTooltip {
+	padding:5px 10px;
+	border:1px solid #252527;
+	background-color:#5d5f65;
+	color:#dedede;
+	z-index:15;
+	}
+li {margin-left:13px;}	
+	
+.tr_1 {
+    background: #dcfff1; /* Цвет фона четных строк */
+   }
+
+.tr_0 {
+    background: #dcf5ff; /* Цвет фона четных строк */
+   }
+
+#prise {
+    border-collapse: collapse; /* Убираем двойные границы между ячейками */
+    border: 2px solid #666; /* Рамка вокруг таблицы */
+   }
+
+   
+#prise.tr,th {
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #666; /* Рамка вокруг ячеек */
+   }
+   
+H2 {display:inline-block; font-size:14px}
+   
+   
+   
+.top_block {background-color:#1283d2; height:100%; width:100%; z-index:1000; background-image:url(../img/bg_right_block.png); background-repeat:repeat-x; display:none;-moz-box-shadow: 0 0 5px #fff;  -webkit-box-shadow: 0 0 5px #fff;  box-shadow: 0 0 5px #fff; position:absolute; top:0px; left:0px; background-image:url(../img/bg.jpg)}   
+#telo {overflow:hidden; width:100%; line-height:22px}
+.top_block a {display:block; padding:8px; color:#FFF; font-size:23px; font-weight:bold}
+.main_menu a {display:block; padding:15px; font-size:19px; text-align:left; color:#000;  border-radius:7px 7px 7px 7px; text-decoration:none;  margin:4px; margin-right:4px; color:#009dde; font-weight:bold; border:1px dotted #009dde; border:1px dotted #009dde; margin-bottom:8px; position:relative; background-color:#fcfeff}
+
+
+.title_page {font-size:22px; color:#00b0f0; font-weight:bold; padding:9px; text-align:center}
+
+.dopinf_zayvki {position:absolute; top:15px; right:10px; font-size:16px;}
+.inf_block {padding:3px; border:1px dotted #00a2e3; background-color:#f6fcff;}
+.inf_block span {font-weight:bold;}
+
+.pole_enter {display:block; width:93%; padding:10px; font-size:19px; color:#02296c; border:1px solid #5d7588; border-radius:3px 3px 3px 3px; margin-bottom:10px; margin-top:5px;
+box-shadow: 0px 0px 10px rgba(198, 211, 231, 1);}
+
+.label_enter {display:block; padding:10px; font-size:19px; color:#fff; margin-bottom:10px}
+.label_enter input {padding:10px; font-size:19px; color:#02296c;}
+
+
+.b_ent {display:inline-block; margin:auto; padding:10px; font-size:18px; font-weight:bold; color:#FFF; background-color:#d50019; text-align:center; border-radius:5px 5px 5px 5px; margin-top:10px; cursor:pointer;}
+
+.main_bg_preload {background-color:rgba(0,0,0,0.5); background-repeat:no-repeat; background-position:50px center; position:fixed; top:0px; left:0px; width:100%; height:100%; z-index:100; text-align:center; padding-top:80px; display:none}
+
+.block1_toolbar{height:33px; min-width:100px; display:inline-block; background-image:url(../img/el_toolbar.png); background-repeat:no-repeat; position:relative; padding-top:22px; font-size:12px; color:#e5ebf0; padding-left:47px; font-weight:bold;}
+.block1_toolbar a {color:#e5ebf0; font-weight:bold; font-size:12px; text-decoration:none}
+.block1_toolbar a:hover {text-decoration:underline;}
+
+.block2_toolbar{height:33px; min-width:135px; display:inline-block; background-image:url(../img/el_toolbar.png); background-repeat:no-repeat; position:relative; padding-top:22px; font-size:12px; color:#e5ebf0; padding-left:52px; font-weight:bold; background-color:#3a6592}
+
+.block2_toolbar img {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.left_admin_enter {background-color:#f8fbff; width:275px; color:#5d7588; margin-top:0px !important; padding-top:0px !important; padding:32px; }
+.left_admin_enter:hover {background-color:#f7faff}
+
+.zapomnit {height:28px; width:117px; background-image:url(../img/zapomnit.png); background-repeat:no-repeat; margin-left:-4px}
+.zapomnit:hover {cursor:pointer;}
+
+.btn_enter {display:inline-block; padding:8px; font-size:18px; font-weight:bold; background:none; border:1px solid #467bb5; border-radius:4px 4px 4px 4px; color:#FFF; background-color:#467bb5; text-align:center; border-radius:5px 5px 5px 5px; cursor:pointer; padding-left:15px; padding-right:15px}
+.btn_enter:hover {box-shadow: 0px 0px 10px rgba(198, 211, 231, 1); background-color:#4076b0}
+
+.error_pole {box-shadow: 0px 0px 10px rgba(255, 0, 0, 1) !important; }
+
+.num_error {text-align:center; padding:10px; font-weight:bold; font-size:20px; margin-bottom:17px; color:#db090e;}
+.num_error span {color:#db090e;}
+
+#msg_admin {
+	display:none;
+	border:1px solid #e7e7e5; 
+	padding:10px;
+	border-radius:5px 5px 5px 5px;
+	z-index:1000;
+	width:450px; height:250px;
+	position:fixed;
+	top: 10%; left: 36%;
+	background-color:rgba(255,255,255,0.6);
+	box-shadow: 0px 0px 20px #ffffff;	
+	
+}
+
+.msg_admin_box {
+	border:1px solid #d9e4ee; 
+	padding:10px;
+	border-radius:5px 5px 5px 5px;
+	height:230px;
+	background-color:#eaeff3;;
+	position:relative
+		
+}
+
+
+
+.msg_admin_num_enter {color:#F00; text-align:center; padding:5px; font-size:20px; padding-bottom:14px}
+
+.msg_admin_text {font-size:28px; text-align:center; line-height:33px; color:#4E7294; font-weight:bold; padding-top:15px; padding-bottom:10px;}
+
+.msg_admin_title {border-radius:5px 5px 0px 0px;
+margin:-10px; margin-bottom:3px; font-size:16px; font-weight:bold; color:#fff; background-color:#4e7294; padding:11px;}
+
+.msg_admin_btn {padding:9px; font-size:16px; color:#FFF; font-weight:bold; text-align:center; background-color:#bf0613; border-radius:5px 5px 5px 5px; display:inline-block; margin-top:12px; margin:auto}
+.msg_admin_btn:hover {background-color:#ab0511; cursor:pointer}
+
+.yes_admin_enter {display:inline-block; padding:8px; color:#FFF; font-weight:bold; font-size:26px; border:1px solid #36b917; background-color:#36b917; text-align:center; text-decoration:none;
+margin-top:10px; margin-bottom:16px; width:150px; border-radius:5px 5px 5px 5px} 
+
+.no_admin_enter {display:inline-block; padding:8px; color:#FFF; font-weight:bold; font-size:26px; border:1px solid #df1313; background-color:#df1313; text-align:center; text-decoration:none;
+margin-top:10px; margin-bottom:16px; border-radius:5px 5px 5px 5px; width:150px} 
+
+.oko {position:absolute; right:7px; top:6px;}
+.oko:hover {cursor:pointer;}
+
+.error_pass {font-size:11px; color:#F00; padding-top:4px; padding-bottom:8px; display:none}
+
+/*для страницы входа (авторизации)*/
+.body_admin {
+	background-color:#e6ebf3;
+}
+
+.main_bg_mob {
+	background-color:#4375ac; 
+	height:110%; 
+	padding:10px;
+}
+
+.close_box_to_mob {
+	text-decoration:none; 
+	color:#FFF; 
+	font-weight:bold; 
+	font-size:27px; 
+	position:absolute; 
+	top:15px; 
+	right:15px;
+}
+
+.box_to_mob {
+	font-size:22px; 
+	color:#FFF; 
+	font-weight:bold; 
+	line-height:20px; 
+	text-align:center;
+}
+
+.el3_toolbar {
+	position:absolute; 
+	top:14px; 
+	left:17px;
+}
+
+.el_toolbar {
+	height:55px; 
+	width:5px; 
+	display:inline-block; 
+	background-image:url(../img/el_toolbar.png); 
+	background-repeat:no-repeat; 
+	margin-left:-4px;
+}
+
+
+.toolbar {
+	height:55px; 
+	background-image:url(../img/toolbar.png);
+}
+
+.title_admin_form_versiy {
+	padding-top:18px; 
+	color:#8094aa; 
+	font-size:11px; 
+	font-weight:bold;  
+	text-align:center; 
+	border-bottom:1px solid #e0e7f3; 
+	padding-bottom:8px; 
+	margin-bottom:20px;
+}
+
+.title_enter_sys {
+	font-size:19px; 
+	font-weight:bold; 
+	text-align:left; 
+	margin-bottom:9px;
+}
+
+.title_enter_sys2 {
+	font-size:12px; 
+	line-height:20px; 
+	text-align:left; 
+	margin-bottom:18px; 
+	font-weight:bold
+}
+
+.div_form_ent {
+	text-align: left;
+	position:relative;
+}
+
+.btn_who_pass {
+	color:#3070b7; 
+	font-weight:bold; 
+	font-size:11px; 
+	text-decoration:none;
+}
+
+.line_left_enter {
+	border-bottom:1px solid #e0e7f3; 
+	padding-bottom:8px; 
+	margin-top:17px;
+}
+
+.box_dop_inf_mob {
+	font-size:12px; 
+	line-height:20px; 
+	text-align:left; 
+	margin-bottom:15px; 
+	margin-top:17px; 
+	font-weight:bold
+}
+
+.box_dop_inf_mob2
+{
+	text-align:center; 
+	padding:5px; 
+	border:1px dotted #CC0000;
+}
+
+
+.btn_go_mob {
+	color:#F00; 
+	font-weight:bold; 
+	font-size:30px; 
+	margin-top:16px; 
+	display:block; 
+	padding:7px;
+}
+
+.phone_form_enter {
+	font-size:14px; 
+	line-height:22px; 
+	text-align:left; 
+	margin-bottom:15px; 
+	padding-left:26px; 
+	position:relative; 
+	font-weight:bold;
+}
+
+.inf_pri_obrashen {
+	font-size:12px; 
+	line-height:20px; 
+	text-align:left; 
+	margin-bottom:15px; 
+	font-weight:bold;
+}

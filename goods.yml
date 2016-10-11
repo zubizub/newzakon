@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='windows-1251'?>
+<!DOCTYPE yml_catalog SYSTEM 'shops.dtd'>
+<yml_catalog date='2015-07-30 19:21'>
+<shop>
+        <name>Текстиль Маркет 161</name>
+        <company>Текстиль Маркет 161</company>
+        <url>http://test1.ru/</url>
+        <currencies>
+            <currency id='RUR' rate='1' plus='0'/>
+        </currencies>
+		
+<categories>
+ <category id='53'>Разные товары</category>
+ <category id='54'>Телефоны</category>
+   <category id='75' parentId='54'>LG</category>
+   <category id='74' parentId='54'>Sony</category>
+   <category id='73' parentId='54'>Samsung</category>
+ <category id='72'>Вертолеты</category>
+</categories>
+
+<local_delivery_cost>300</local_delivery_cost>
+<offers>
+	<offer id='5518' type='vendor.model' available='true'>
+		<url>http://test1.ru/goods/5518/Samsung-Galaxy-S5-SM-G900F-16Gb/</url>
+		<price>23990</price>
+		<currencyId>RUR</currencyId>
+		<categoryId>73</categoryId>
+		<picture>http://test1.ru/cms/modul/katalog/upload/2ed5e72411448347173621b1dca34362.jpg</picture>
+		<delivery>true</delivery>	
+		<local_delivery_cost>200</local_delivery_cost>
+		<typePrefix>Телефоны</typePrefix>
+				<vendor>Текстиль маркет</vendor> 
+		<model>Samsung Galaxy S5 SM-G900F 16Gb</model>			
+		<description>смартфон, Android 4</description>
+		<manufacturer_warranty>true</manufacturer_warranty>
+	</offer>	
+
+	<offer id='5517' type='vendor.model' available='true'>
+		<url>http://test1.ru/goods/5517/tovar-krasnyy/</url>
+		<price>500</price>
+		<currencyId>RUR</currencyId>
+		<categoryId>53</categoryId>
+		<picture>http://test1.ru/cms/modul/katalog/upload/b0b39e4e052b9b075478f973abf1c74e.jpg</picture>
+		<delivery>true</delivery>	
+		<local_delivery_cost>200</local_delivery_cost>
+		<typePrefix>Телефоны</typePrefix>
+				<vendor>Текстиль маркет</vendor> 
+		<model>Товар красный</model>			
+		<description>опронопно</description>
+		<manufacturer_warranty>true</manufacturer_warranty>
+	</offer>	
+	</offers>
+</shop>
+</yml_catalog>

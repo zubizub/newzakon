@@ -1,0 +1,20 @@
+.form_inf div {display:inline-block; width:137px; border-bottom:1px solid #CCC;}
+.form_inf input[type=text] {width:400px; display:inline-block}
+.form_inf span {width:400px; display:inline-block; font-weight:bold}
+.form_inf p {margin-bottom:4px;}
+
+.box_link_import_user {
+	position: relative;
+	height: 30px;
+}
+
+.box_link_import_user:hover {
+	opacity: 0.8;
+}
+
+.box_link_import_user a {
+	position: relative;
+	display: inline-block;
+	margin-left: 5px;
+	top: -6px;
+}

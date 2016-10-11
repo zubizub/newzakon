@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/moyzakon.8630.ru/webstat"
+AuthUserFile /var/www/moyzakon/data/etc/2499079.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

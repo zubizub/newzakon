@@ -1,0 +1,666 @@
+@media (max-width: 390px) {
+    #forma_enter {
+        position: relative;
+        margin-bottom: 10px;
+        height: 160px;
+        width: 100%;
+        margin-top: 40px;
+    }    
+    .tbl_file_td3 {
+        display: none;
+    }
+    
+    .tbl_file_td2 {
+        width:80px;
+    }
+    
+    .showFaqMenu {
+        display: block;
+        text-decoration: none;
+        background-color: #1aaea0;
+        color: #fff;
+        padding: 10px;
+        background-image: url('/img/lineFAQMenu.png');
+        background-repeat: no-repeat;
+        background-position: 90% 6px;
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-top: -25px;
+    }
+    
+    .showFaqMenu:active {
+        background-color: #0e6d64;
+    }
+    
+    .boxSearchSelect10 {
+        width:50%;
+    }
+    
+    .boxHeadSearch10-btn {
+        display: inline-block;
+        width:45%;
+    }
+    
+    .leftFaq {
+        display: none;
+        background-color: #effffd
+    }
+    
+    .rightBlockFaq {
+        margin-top:40px;    
+    }
+    
+    .box_cabinet_nav {
+        display: block;
+        margin-bottom: 12px;
+        margin-top: 10px;
+        text-align: left;
+        border-bottom: 3px solid #fff;
+        width: 100%;
+        margin-top: -40px;
+        text-align: center;
+    }
+    .btn_cabinet_nav {
+        display: block;
+        padding: 6px;
+        text-decoration: none;
+        font-size: 17px;
+        color: #666;
+        margin-left: 0px;
+        border-bottom: 3px solid #fff;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .btn_cabinet_nav:first-child {
+        margin-left: 0px;
+    }
+    .btn_cabinet_nav:last-child {
+        border-right: 1px solid #fff;
+    }
+    .btn_cabinet_nav:hover {
+        border-bottom: 3px solid #19AEA2
+    }
+    .btn_cabinet_nav_h {
+        border-bottom: 3px solid #19AEA2
+    }
+    
+    
+    .banMainRazmestit-title3 {
+        display: none;
+    }
+    
+    
+    .banMainRazmestit-title1 {
+        padding-top: 30px;
+    }
+    
+    .banMainRazmestit-title4 {
+        margin-top:20px;
+    }
+    
+    .boxHeadSearch-btn {
+        width:30% !important;
+    }
+    
+    .boxHeadSearch-pole {
+        width:60% !important;
+    }
+    
+    .descHead1 {
+        display: none;
+    }
+    
+    
+    .descHead2 {
+        display: none;
+    }
+    
+    .headFormZayvka {
+        height:150px;    
+    }
+    
+    
+    .zadanieMain div {
+        text-transform: uppercase;
+        color: #151515;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    
+    .zadanieMain {
+        padding-right:25px;
+    }
+
+    .regMainEtap1-title {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .boxMainEnter1 input[type='text']{
+        display: inline-block !important;
+        width: 47% !important;
+        margin-right: 1%;
+    }
+}    
+
+
+@media (max-width: 450px) {
+
+
+    .boxHeadSearch {
+        text-align: center;
+    }
+    
+    .icoSearchHead {
+        display: none;
+    }
+
+    .boxSearchSelect {
+        display: none;
+    }
+    
+    .boxHeadSearch-btn {
+        width:20%;
+    }
+    
+    .boxHeadSearch-pole {
+        width:75%;
+    }
+    
+    
+    .box_reg {
+        width: 300px;
+        margin-left: -150px;
+    }
+    
+    
+    .div_reg-btnUser {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px;
+        background-color: #1AAEA0;
+        color: #fff;
+        font-size: 15px;
+        transition: 0.15s all;
+    }
+    
+    
+    .div_reg-btnUrist {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px;
+        background-color: #666666;
+        color: #fff;
+        font-size: 15px;
+        margin-left: 24px;
+        transition: 0.15s all;
+    }
+    
+
+   
+}
+
+@media (max-width: 767px) {
+    
+    .left_block_user_form {
+        text-align: center;
+    }
+    
+    #forma_user {
+        text-align: center;
+    }
+    
+    .boxArtical div[class^='col']
+    {
+        height: auto;
+    }
+    
+    .frmReg {
+        margin-left: 0px;
+        position: relative;
+        margin-top: 40px;
+        margin-bottom: -10px;
+        padding: 30px;
+        width: 100% !important;
+    }
+    
+    .frmReg div {
+        display: block;
+    }
+    
+    .button_enter {
+        display: block !important;
+        margin-top: 15px;
+    }
+    
+    .boxTypeZadach {
+        text-align: left !important;
+        margin-bottom: 5px
+    }
+    
+    .budjetZadach {
+        margin-top:6px    
+    }
+    
+    .titleHead1 {
+        font-size: 18px;
+        color: #ffffff;
+        text-shadow: 0px 0px 2px rgba(150, 150, 150, 1);
+        margin-top: 6%;
+        text-transform: uppercase;
+    }
+
+    .descHead1 {
+        font-size: 14px;
+        color: #ffffff;
+        text-shadow: 0px 0px 2px rgba(150, 150, 150, 1);
+        margin-top: 1%;
+        font-family: 'fregatregular';
+    }
+    
+    
+    
+    .titleHead2 {
+        font-size: 18px;
+        color: #ffffff;
+        text-shadow: 0px 0px 2px rgba(150, 150, 150, 1);
+        margin-top: 7%;
+        text-transform: uppercase;
+    }
+
+    .descHead2 {
+        font-size: 14px;
+        color: #ffffff;
+        text-shadow: 0px 0px 2px rgba(150, 150, 150, 1);
+        margin-top: 5px;
+        font-family: 'fregatregular';
+    }
+
+
+    
+    .blockInfSiteMain {
+        display: none;
+    }
+    
+    .menu_futer {
+        height: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    footer {
+        height: auto;
+    }
+    
+    .icoSearch2-1 {
+        display: none;
+    }
+    
+    .icoSearch2-2 {
+        display: none;
+    }
+    
+    .icoSearch2-3 {
+        display: none;
+    }
+    
+    .icoSearch2-4 {
+        display: none;
+    }
+    
+    .boxSearchSelect1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .boxSearchSelect2 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .boxSearchSelect2 .boxCityPole {
+        display: block;
+    }
+    
+    .boxSearchSelect2 input[type='text']
+    {
+        width: 100%;
+    }
+    
+    .boxSearchSelect3 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .boxSearchSelect4 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .boxHeadSearch2-btn {
+        width:100%;
+    }
+    
+    .boxHeadSearch2-btn2 {
+        width:100%;
+    }
+    
+    
+    .logo {
+        margin: auto;
+        height: 70px;
+        margin-top: 25px;
+    }
+    
+    
+    .contact_head {
+        text-align: center;
+        height: 150px;
+        margin-top: 0px;
+    }
+    
+    .contact_head a {
+        color: #333;
+    }
+    
+    #center_div {
+        padding-left: 0px;
+    }
+    
+    .footer-contacts {
+        text-align: center;
+    }
+    
+    .footer-phone {
+        margin-bottom:10px;
+    }
+    
+    .footer-address {
+        text-align: center;
+    }
+    
+    address {
+        display: block;
+        text-align: center;
+        margin-top: 16px;
+    }
+    
+    .katalog_block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .goods_block {
+        width: 100%;
+        margin-bottom: 30px;
+        height: 320px;
+    }
+    
+    .histor {
+        margin-top:-20px;
+    }
+    
+    .left_block_goods {
+        text-align:center;
+        margin-bottom: 30px;
+    }
+    
+    .nalich_label {
+        top:-24px;
+    }
+    
+    .menu_ico_mob {
+        display:block
+    }
+    
+    
+    .galery_block_img {
+       width: 100%;
+       max-width: 135px;
+    } 
+    
+    .galery_block_img img {
+        max-width: 135px;
+    }
+    
+    .btn_send_dop_form {
+        text-align: left;
+    }
+    
+    .box_add_carts {
+        width:94%;
+        height: 400px;
+        margin-left: 0px;
+        top: 10%;
+        left: 2%;
+        padding: 0px;
+    }
+    
+    .tbl_div_add_carts_right {
+        margin-top:30px
+    }
+    
+    .podval_add_carts div {
+        font-size: 13px;
+    }
+    
+    .podval_add_carts {
+        margin-left: -13px;
+    }
+    
+    
+    .close_add_carts2 {
+        font-size: 11px;
+        padding-left: 5px;
+    }
+    
+    .text_list_artical {
+        padding-left:0px;
+    }
+    
+    .up_menu {
+        height: 155px;
+        text-align: center;
+    }
+    
+    .up_menu div[class^='col'] {
+        padding-top: 19px;
+        font-family: 'fregatregular';
+    }
+    
+    .boxHeadSearch-pole {
+        width: 55%;
+    }
+    
+    .zadanieMain {
+        padding-top: 10px;
+    }
+    
+    
+    .boxZadanieMain div[class^='col'] {
+        min-height: 50px;
+        vertical-align: middle;
+        padding-left: 35px;
+    }
+    
+    
+    .zadanieMain:first-child {
+        vertical-align: middle;
+        padding-top: 10px;
+    }
+    
+    .titleMainPage22 {
+        margin-bottom: 10px !important;
+        font-size: 20px !important;
+        line-height: 25px;
+        padding: 35px;
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+    
+    
+    .banMainRazmestit-title1 {
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+
+    .banMainRazmestit-title2 {
+        font-size: 30px;
+        color: #ffffff;
+        margin-bottom: 10px;
+        font-family: 'fregatbold';
+    }    
+
+
+    .banMainRazmestit-title3 {
+        font-size: 13px;
+        line-height: 21px;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }  
+
+
+
+    
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+   
+    .zadanieMain1 {
+        vertical-align: middle;
+        padding-top: 50px;
+        padding-left: 0px
+    }
+
+
+    .zadanieMain3 {
+        vertical-align: middle;
+        padding-top: 50px;
+        padding-left: 0px
+    }
+    
+    .zadanieMain div {
+        text-transform: uppercase;
+        color: #151515;
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+    .menu_ico_mob {
+        display:block
+    }
+    
+    .katalog_block {
+        width: 162px;
+        margin-right: 10px;
+    }
+    
+    .right_block_goods {
+        padding-left:30px;
+    }
+
+    
+    .boxHeadSearch-pole {
+        width: 58%;
+    }
+    
+    .icoSearch2-1 {
+        display: none;
+    }
+    
+    .icoSearch2-2 {
+        display: none;
+    }
+    
+    .icoSearch2-3 {
+        display: none;
+    }
+    
+    .icoSearch2-4 {
+        display: none;
+    }
+    
+    .boxSearchSelect1 {
+        width: 18%;
+        display: none;
+    }
+    
+    .boxSearchSelect2 {
+        width: 29%;
+    }
+    
+    .boxSearchSelect3 {
+        width: 25%;
+    }
+    
+    .boxSearchSelect4 {
+        width: 27%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .boxSearchSelect4 {
+        width: 23%;
+    }
+    
+    .boxSearchSelect2 {
+        width: 22%;
+    }
+    
+     .selectSity {
+        font-size:14px;
+    }
+    
+    .icoSearch2-1 {
+        display: none;
+    }
+    
+    .menu_up_site a {
+        margin-left: 2px;
+        margin-right: 0px;
+    }
+    
+    .btnUpEnter {
+        margin-right: 5px;
+        font-size:13px;
+    }
+    
+    .btnUpReg {
+        margin-right: 5px;
+        font-size:13px;
+    }
+    
+    
+    .katalog_block {
+        width: 152px;
+        margin-right: 10px;
+    }
+    
+    .menu_ico_mob {
+        display:none
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .goods_block:nth-last-child(3n) {
+        margin-right: 0px;
+    }
+    
+    .katalog_block:nth-child(4n) {
+        margin-right: 0px;
+    }
+    
+    .menu_ico_mob {
+        display:none
+    }
+}

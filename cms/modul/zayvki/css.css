@@ -1,0 +1,4 @@
+.form_inf div {display:inline-block; width:137px; border-bottom:1px solid #CCC;}
+.form_inf input[type=text] {width:400px; display:inline-block}
+.form_inf span {width:400px; display:inline-block; font-weight:bold}
+.form_inf p {margin-bottom:4px;}

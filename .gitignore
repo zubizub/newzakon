@@ -1,0 +1,12 @@
+settings.php
+/uploads
+/img
+/webstat
+nbproject
+.idea
+node_modules
+bower_components
+log.txt
+license_key.php
+/nbproject
+/pma

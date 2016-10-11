@@ -1,0 +1,108 @@
+/*Пользовательские стили*/
+
+
+/*Стили ссылок*/
+.content_page a {color:#57a7f1;}
+.content_page a:hover {color:#4493dd;}
+.content_page a:active {color:#333;}
+.content_page a:visited {color:#333;}
+
+li {margin-left:23px;}
+
+h1 {font-size:19px !important;
+	color:#454545; 
+	padding:4px; 
+	padding-top:0px !important; 
+	display:block; 
+	margin-bottom:4px; 
+	width:100%; 
+	margin-top:6px !important; 
+	padding-left:0px;
+}
+
+h1 a{color:#11abdf; 
+	text-decoration:none; 
+	display:inline-block; 
+	margin-left:1px !important; 
+	margin-right:1px; 
+	font-weight:bold; 
+	font-size:18px;
+}
+
+h1 a:hover {text-decoration:underline;}
+
+
+h2 {font-size:17px !important; 
+	font-weight:bold;
+}
+
+h3 {font-size:15px !important; 
+	font-weight:bold;
+}
+
+
+
+
+/*Стили таблиц*/
+.tbl_obj {border-collapse: collapse; 
+	border:1px solid #c7c7c7;
+	width: 100%;
+}
+
+.tbl_obj th {font-weight:bold; 
+	font-size:12px; 
+	padding:5px; 
+	vertical-align:top; 
+	border:1px solid #c7c7c7; 
+	background-color:#333; 
+	color:#fff; 
+	vertical-align:middle;
+	color:#FFF;
+}
+
+.tbl_obj td {text-align:left;
+	font-size:12px; 
+	padding:5px; 
+	vertical-align:top; 
+	border:1px solid #c7c7c7; 
+	vertical-align:middle;
+}
+
+.tbl_obj tr:nth-child(even)  {background-color:#f6f6f6 !important;}
+.tbl_obj tr:hover {background-color:#e3f1ff !important;}
+
+
+
+.tbl_file {border-collapse: collapse; 
+	border:0px;
+	width: 100%;
+}
+
+.tbl_file th {font-weight:bold; 
+	font-size:12px; 
+	padding:10px; 
+	vertical-align:top; 
+	border:0px; 
+	background-color:#333; 
+	color:#fff; 
+	vertical-align:middle;
+	color:#FFF;
+}
+
+.tbl_file td {text-align:left;
+	font-size:12px; 
+	padding:10px !important; 
+	vertical-align:top; 
+	border:0px; 
+	vertical-align:middle;
+}
+
+
+.tbl_file tr:hover {background-color:#e3f1ff !important;}
+
+.tbl_file_td4 {
+    width: 10%
+}
+
+
+

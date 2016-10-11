@@ -1,0 +1,814 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201605 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.moyzakon.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1992                
+POS_TIME 2650                
+POS_VISITOR 14225               
+POS_DAY 19202               
+POS_DOMAIN 3538                
+POS_LOGIN 3774                
+POS_ROBOT 3929                
+POS_WORMS 4382                
+POS_EMAILSENDER 4513                
+POS_EMAILRECEIVER 4656                
+POS_SESSION 19690               
+POS_SIDER 19902               
+POS_FILETYPES 4791                
+POS_DOWNLOADS 5119                
+POS_OS 5327                
+POS_BROWSER 5564                
+POS_SCREENSIZE 6461                
+POS_UNKNOWNREFERER 6535                
+POS_UNKNOWNREFERERBROWSER 6776                
+POS_ORIGIN 6958                
+POS_SEREFERRALS 7102                
+POS_PAGEREFS 7257                
+POS_SEARCHWORDS 7768                
+POS_KEYWORDS 7920                
+POS_MISC 2312                
+POS_ERRORS 7979                
+POS_CLUSTER 3630                
+POS_SIDER_404 8120                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160601065442 1 0 30702423465
+FirstTime 0
+LastTime 20160531171534
+LastUpdate 20160601072901 1 0 0 0 0
+TotalVisits 205                 
+TotalUnique 115                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 117                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 373 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 60 1585723 46 47 4514
+1 7 7 204509 15 15 0
+2 12 62 1413733 33 36 4336
+3 0 0 0 3 3 102202
+4 2 2 102207 32 32 51611
+5 2 2 97796 2 2 456
+6 23 173 4573109 18 21 50777
+7 434 473 3378602 56 73 888473
+8 362 473 4800412 45 48 174511
+9 269 842 9169234 32 62 1428986
+10 1154 3626 37421800 42 125 2500694
+11 1918 3303 25205800 141 231 5391944
+12 1505 2556 28984231 437 612 7150691
+13 1071 2666 15275171 102 180 1784396
+14 1547 3206 20965078 86 197 4070598
+15 2064 4313 24171797 104 244 5045809
+16 2498 5289 40477660 158 308 5224116
+17 2312 4693 32293211 109 288 7895235
+18 1205 2198 15348322 88 152 4091185
+19 931 1056 6696190 48 68 843092
+20 123 195 2777374 45 47 263
+21 349 590 4350369 36 44 229933
+22 864 959 5044293 47 56 763054
+23 850 937 6409105 81 115 2492267
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 19512 37681 290745726
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+no_user_agent 80 418197 20160531083256 0
+yandex 52 1446691 20160531135928 1
+googlebot 17 50968 20160531124649 16
+curl 6 307657 20160530082944 0
+bot[\s_+:,\.\;\/\\-] 5 154913 20160527141130 1
+unknown 5 125 20160530131118 5
+surveybot 2 103761 20160531115422 0
+crawl 2 50593 20160520171011 1
+python 1 50033 20160525151729 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 4501 34174786 0 0
+png 6828 36241911 0 0
+ttf 11 688920 0 0
+woff2 311 5235804 0 0
+txt 2 64 0 0
+woff 62 1580212 0 0
+php 14159 1512222 0 0
+html 4966 137065440 0 0
+js 5227 37686790 0 0
+jpg 1514 35522920 0 0
+jpeg 69 409802 0 0
+Unknown 3 46862 0 0
+gif 28 579993 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/doc/3962c2ef51bce92c3a0e54615505b1f5.rar 8 0 82320
+/doc/096869791fca4e39f27c4cd56dcd8a85.rar 4 0 82956
+/cmsmagazinee126addbbf7acb32e4c4040764d34db0.txt 2 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linuxandroid 5589 2270
+winxp 82 80
+macosx6 2 2
+winlong 1 1
+unix 2 2
+winnt 27514 15272
+linux 258 40
+winvista 2523 1083
+win7 1322 709
+macosx 367 43
+win2003 1 1
+Unknown 20 9
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 43
+firefox28.0 1 1
+chrome50.0.2661.89 5196 2191
+firefox44.0 2 2
+chrome49.0.2623.110 3947 3201
+firefox26.0 1 1
+android 7 7
+chrome48.0.2564.116 2 2
+firefox3.0.1 1 1
+chrome12.0.742.91 1 1
+firefox24.0 1 1
+opera9.80 1 1
+msie8.0 113 17
+chrome50.0.2661.94 5601 1840
+msie7.0 9 0
+firefox40.1 57 7
+chrome50.0.2661.102 9088 3675
+firefox41.0 64 0
+chrome27.0.1453 57 7
+chrome43.0.2357.93 1 1
+safari8.0 1 1
+Unknown 5 5
+firefox17.0 1 1
+chrome48.0.2564.95 183 19
+chrome48.0.2564.82 1 1
+safari6.0 160 16
+firefox46.0 1487 244
+chrome43.0.2357.132 1 1
+chrome51.0.2704.63 2052 479
+firefox45.0 1 1
+safari9.0 142 26
+firefox33.0 81 79
+firefox25.0 2 2
+mozilla 17 6
+chrome35.0.1916.153 1 1
+netscape5.0 13 13
+msie10.0 4 4
+seamonkey 1 1
+chrome46.0.2486.0 8965 7561
+chrome48.0.2564.103 2 2
+chrome11.0.696.71 2 2
+chrome44.0.2403.133 202 52
+safari 195 27
+chrome48.0.2564.97 12 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Yo-yo 20160529102349
+Go-http-client/1.1 20160521185555
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20160524234222
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+http://Anonymouse.org/_(Unix) 20160517130949
+Yo-yo 20160529102349
+Go-http-client/1.1 20160521185555
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 499 523
+From1 7 7
+From2 1 1
+From3 13 13
+From4 18992 37137
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://otbelimzub.ru 5 5
+http://webrost24.ru/company/personal/user/7/tasks/task/view/7579/ 2 2
+http://webrost24.ru/company/personal/user/62/tasks/task/view/7579/ 2 2
+http://XN--80ANFGGKCE.XN--P1AI 1 1
+http://webrost24.ru/company/personal/user/51/tasks/task/view/7579/ 1 1
+http://www.cmsmagazine.ru/creators/eurosites/works/ 1 1
+http://xn--80anfggkce.xn--p1ai 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 41 8856
+302 672 0
+206 7 401239
+404 1672 45603605
+301 66 15018
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 252
+/atilektcms/ 1 -
+/css/dotplant.css 1 -
+/admin/content/sitetree/ 1 -
+/wordpress/ 31 -
+/admx5/sitexcms.php 1 -
+/cgi-bin/admin/logon.pl 1 -
+/admin.php 5 -
+/engine/plugins/auth_basic/auth_basic.php 1 -
+/app/ajax/cms/version 1 -
+/drupal/ 30 -
+/admin/sys/main.php 2 -
+/user/preminder 1 -
+/vakansii/ 11 http://moyzakon.com/blog/
+/top/comment/30d/ 1 -
+/x20/ 1 -
+/admin/index.html 1 -
+/rss.xml 1 -
+/inclusio/ 1 -
+/admin/ausers/login 1 -
+/engine/ajax/w2w_ajax.js 1 -
+/rsd.xml 1 -
+/_admin/ 1 -
+/ajax/preview/text/ 1 -
+/error_message.php 1 -
+/Admin/ 1 -
+/typo3/index.php 1 -
+/admin/login 2 -
+/pginf.php 1 -
+/engine/rpc.php 1 -
+/scripts/login.php 1 -
+/ru 2 -
+/vamshop.txt 1 -
+/mscms/ 1 -
+/control/auth/ 1 -
+/cgi-bin/djem/djemserver 2 -
+/vam_rss2_info.php 1 -
+/bs/ 1 -
+/apanel/ 1 -
+/cms/modul/materials/upload/img/77157507f9c8a9edd7be4762959ca85f.jpg 1 http://moyzakon.com/cms/
+/joomla/ 30 -
+/_admin/login.phtml 1 -
+/avncms/ 1 -
+/include/version.php 1 -
+/cgi-bin/djemserver 1 -
+/.handycms 1 -
+/test/ 30 -
+/index/ 1 -
+/_cms/images/text_folder.gif 1 -
+/js/js.js 1 -
+/content2/login.php 1 -
+/cms/modul/materials/upload/img/a19c0c93f38bdb7381e00b1f8e5769c7.jpeg 1 http://moyzakon.com/cms/
+/store_closed.html 1 -
+/administrator/ 2 -
+/ahcms/ 1 -
+/admin/engine.php 1 -
+/1/ 30 -
+/cgi-bin/djem/djemserver.cgi 2 -
+/wp-login.php 2 -
+/login 5 -
+/admin.pl 1 -
+/admin/login/ 1 -
+/admin/Core/Auth/ 1 -
+/~admin/admin. 1 -
+/js/index.js 1 -
+/store/ 1 -
+/cpanel/ 1 -
+/about-cp.txt 1 -
+/common/html/classic/footer.htm 2 -
+/mpanel/ 2 -
+/rsm/ 2 -
+/mg-admin 1 -
+/mayral2/ 1 -
+/system/views/skin/css/style.css 1 -
+/cms/tinymce/all.min.css 676 http://moyzakon.com/cms/
+/engine/engine.php 1 -
+/shop/adm 1 -
+/CMS/ 1 -
+/shop/ 32 -
+/admin/admin.miw 1 -
+/logon/ 1 -
+/adminka/ 1 -
+/cms-actions/files/scripts/round.js/1/ 1 -
+/inc/main.js 1 -
+/administration 1 -
+/engine/ajax/js_edit.js 1 -
+/content/login.php 1 -
+/trinetcms/admin/ 1 -
+/cms.php 1 -
+/about.txt 1 -
+/u/onessa.txt 1 -
+/catalog/view/javascript/common.js 1 -
+/doc/preview.asp 1 -
+/wa-content/ 1 -
+/data/scripts/common/index.js 2 -
+/ru/index.wbp 2 -
+/form_.php 1 -
+/s_admin/index.php 1 -
+/Mayral/ 1 -
+/cms/login.php 1 -
+/backend/main/index/ 1 -
+/common/js/core/check_form.js 1 -
+/djem/djemserver.cgi 1 -
+/administrator/index.php 1 -
+/wa-data/public/site/ 1 -
+/index.wbp 1 -
+/default.aspx 2 -
+/site/login 1 -
+/system/views/assets/css/jsmart.css 1 -
+/wlwmanifest.xml 1 -
+/ajax/global_func.js 1 -
+/includes/javascript/kr_showhints.js 1 -
+/atilektcms/login.aspx 3 -
+/plugins/system/global_func.js 1 -
+/bitrix/admin/ 1 -
+/mscms 1 -
+/nre_core/module.php 1 -
+/cgi-bin/sp/sp.cgi 1 -
+/javascripts/global_func.js 1 -
+/templates/m3-reborn-66portal/fastheme/css/highslide/lightbox/linkedselect.js 1 -
+/_indy/sys/mod/ 1 -
+/home/ 1 -
+/webasyst/ 1 -
+/cms/modules/index/index.php 1 -
+/boatilekt/login.aspx 1 -
+/login.aspx 1 -
+/mayral/ 2 -
+/company/ 1 -
+/user 1 -
+/manager/ 8 -
+/check-system-info-studiostar-ru-system-code 1 -
+/_admin/_login/ 1 -
+/hostcmsfiles/main.js 1 -
+/engine/admin/ 1 -
+/admin/login.php 3 -
+/new/ 30 -
+/password_double_opt.php 1 -
+/user/login 1 -
+/includes/init.php 1 -
+/cms-bs/ 1 -
+/media/system/js/mootools-more.js 1 -
+/dateZadach 2 -
+/admin/img/b_down_over.jpg 1 -
+/admin/index.php 4 -
+/changelog.txt 1 -
+/Administrator 2 -
+/if-techart 1 -
+/browserconfig.xml 2 -
+/adm/adm_news.php 1 -
+/data/styles/client.main.css 1 -
+/old/ 30 -
+/includes/javascript/kr_ajax.js 2 -
+/frontend/index.js 1 -
+/copyright.txt 2 -
+/oc-admin/ 1 -
+/sys/js/z-admin.js 1 -
+/video 1 -
+/admin/login.phtml 1 -
+/cms/modul/desktop/ajax_dopinf.php 228 http://moyzakon.com/cms/
+/panel.html 1 -
+/cms-sign/ 1 -
+/content.php 2 -
+/js/admin-dnd.js 1 -
+/frontend/style/css/client.main.css 1 -
+/adm 2 -
+/adm/ 1 -
+/siteadmin/ 1 -
+/wabita/ 1 -
+/Security/login 1 -
+/js/core.js 2 -
+/ru/ 3 -
+/users.php 1 -
+/richedit/richedit.functions.js 1 -
+/admin/templates/default/main.html 1 -
+/contact.html 1 -
+/bs 1 -
+/asp/default.aspx 1 -
+/install.txt 1 -
+/cgi-bin/CMS/getcontent.cgi 1 -
+/data/inc/main.js 1 -
+/manage.php 2 -
+/mayral3/ 1 -
+/shop_content.php 1 -
+/published/common/html/classic/footer.htm 2 -
+/backend/ 3 -
+/idmadmin 1 -
+/admin/ 52 -
+/misc/drupal.js 2 -
+/apanel/index.php 1 -
+/admincms/ 1 -
+/cms/kernel/admin.php 1 -
+/system/views/assets/js/jsmart.js 1 -
+/deep-cms-info/ 1 -
+/__ver__/ 1 -
+/sys/img/style.css 1 -
+/data/scripts/richedit/richedit.functions.js 1 -
+/trener/ 1 -
+/templates/system/css/system.css 1 -
+/netcat/ 1 -
+/pub/login.php 2 -
+/doc/ 1 http://moyzakon.com/docs/
+/scripts/richedit/richedit.functions.js 1 -
+/login.php 4 -
+/script.js 1 -
+/js/jMainclass.js 1 -
+/showmetwilightversion 1 -
+/admin/default.asp 2 -
+/cgi-bin/cms/index.cgi 1 -
+/organizatory/ 1 http://moyzakon.com/pravovaya-informaciya/
+/site/ 30 -
+/admin.htm 1 -
+/InFo/InFo.prompt.php 1 -
+/userinf/21b27dc75f23d707bd97084e1b510559 2 http://moyzakon.com/docs/
+/include/ajax/textPreview.php 1 -
+/wp/ 31 -
+/js/easy.php 2 -
+/profile/ 1 -
+/admin/sys/badversion.php 2 -
+/includes/module.inc.php 1 -
+/en 2 -
+/blogs/ 30 -
+/admin_cms/ 1 -
+/mod/pages/tpl/pages_add.html 1 -
+/misc/ 1 -
+/new_zadanie/user=3d55a7e8d3cbfb1fc7e0a9b315840c3e 1 http://moyzakon.com/userinf/3d55a7e8d3cbfb1fc7e0a9b315840c3e/
+/CMSPages/logon.aspx 1 -
+/cp/ 1 -
+/common/js/check_form.js 1 -
+/user/ 1 -
+/main.wbp 1 -
+/admin/admin_menu.php 1 -
+/mwadmin/ 1 -
+/pages/ru/login-administration 1 -
+/scripts/index.js 1 -
+/catalog/view/theme/default/stylesheet/stylesheet.css 1 -
+/cms/admin/index.php 1 -
+/data/scripts/index.js 1 -
+/joom/ 30 -
+/backoffice 1 -
+/_engine/ 1 -
+/editor/ 1 -
+/admin 9 -
+/chastye-voprosy/ 5 http://moyzakon.com/cabinet/
+/_admin/markus.php 1 -
+/admin/login.aspx 2 -
+/cms-bs 1 -
+/portal/ 30 -
+/auth/login 1 -
+/page.php 1 -
+/prog/css/bn_calendar.css 1 -
+/products/ 1 -
+/phpshop/admpanel/ 4 -
+/userinf/67600a6b88ec201cabb3f0133ae7796e 1 http://moyzakon.com/docs/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 117
+178.76.224.110 10541 12488 93185744 20160531125746
+92.241.17.69 3342 12703 57026983 20160531161912
+188.162.166.23 809 1238 9906651 20160520173951
+188.162.185.188 367 746 7830089 20160518182325
+188.162.166.24 303 735 6502168 20160519181806
+109.195.229.253 299 505 4143234 20160527184953
+95.153.130.250 249 306 2347321 20160523184324
+178.76.220.113 225 252 1317520 20160525233519
+178.76.239.54 185 414 7382392 20160530164008
+5.139.129.30 164 225 2263574 20160519233104
+104.45.18.178 3 3 119580 20160526141623
+191.237.40.137 1 1 51406 20160527191349
+95.153.129.238 23 36 327716 20160519133144
+66.249.88.224 1 18 673832 20160525063841
+188.162.166.143 8 19 249946 20160530112326
+46.254.23.73 1 1 930 20160517125044
+80.80.109.182 4 11 52224 20160527093542
+192.237.216.89 1 1 50033 20160524013153
+121.42.0.55 1 1 49578 20160519100430
+85.26.183.94 113 155 844326 20160520212105
+188.162.166.146 43 105 728008 20160530113205
+85.26.183.182 94 184 1790144 20160524180538
+121.42.0.71 1 1 49578 20160519100431
+218.241.108.76 3 3 147374 20160519181538
+31.23.199.162 16 22 88995 20160524124152
+188.162.166.148 110 301 3558548 20160526110412
+162.220.59.66 1 1 930 20160517131116
+188.162.166.139 25 172 408409 20160530102641
+95.153.133.225 11 105 1463472 20160530094915
+80.13.94.242 1 1 50568 20160521173205
+87.117.20.37 46 175 3672090 20160526172359
+85.9.20.151 5 5 103908 20160518014811
+95.153.133.67 87 137 1289527 20160518144601
+5.35.93.15 1 1 51639 20160531060831
+93.178.66.61 130 188 1316833 20160519185638
+158.69.27.74 1 1 50568 20160523124340
+188.162.166.142 55 448 1129233 20160530110459
+188.162.166.151 81 371 8050961 20160527110044
+121.42.0.66 8 56 1429008 20160518100625
+188.162.166.150 111 148 1146207 20160530120813
+178.76.227.239 25 29 225407 20160525114344
+185.3.34.111 29 81 1506756 20160518093611
+86.122.244.157 1 1 50568 20160521185555
+121.42.0.75 0 18 282209 
+188.162.166.138 9 49 235575 20160530100152
+95.153.131.217 12 19 247475 20160519183247
+95.153.128.116 35 120 1511194 20160517194444
+188.162.185.161 25 38 278861 20160519115325
+80.80.108.37 14 118 2932517 20160526161530
+188.162.185.130 122 371 5828101 20160517182458
+188.162.166.155 99 143 746256 20160526163028
+83.149.25.67 3 3 150099 20160524121728
+188.162.166.154 87 175 1496477 20160527165106
+23.101.61.176 1 1 49578 20160517165248
+176.192.124.131 88 144 583048 20160522131918
+46.147.109.184 68 290 3270614 20160522104247
+188.165.206.188 1 1 51406 20160527180037
+93.189.42.13 14 14 343832 20160530230449
+121.42.0.77 0 46 745736 
+128.69.78.55 7 57 1436079 20160520003735
+121.42.0.63 3 51 1382198 20160520103545
+188.162.166.140 43 337 3444122 20160530103155
+188.162.166.144 4 39 207708 20160531171534
+40.78.146.128 5 5 162167 20160530151242
+206.183.1.74 6 17 575865 20160524234222
+31.23.92.28 68 106 335532 20160523074626
+40.117.45.92 1 1 16433 20160527191630
+85.26.183.34 4 11 289900 20160520121153
+95.153.131.219 32 85 325586 20160519171537
+185.89.100.127 1 1 50232 20160519141800
+188.162.166.149 141 448 3406446 20160530115808
+213.138.93.177 107 156 1415635 20160521083730
+66.249.88.219 3 20 280841 20160525063841
+178.76.222.157 7 56 1441659 20160527145142
+188.162.166.137 12 26 99187 20160527095256
+219.142.42.9 3 3 150634 20160525003916
+104.209.188.207 4 4 184247 20160527165113
+188.187.211.100 3 3 102 20160517213420
+176.9.139.227 7 57 1472023 20160519060005
+188.162.166.141 14 112 248372 20160530104611
+185.3.32.48 39 92 396546 20160531144208
+188.162.185.36 50 201 1826808 20160527105539
+178.76.214.34 11 62 1485790 20160526152043
+121.42.0.62 8 56 1426788 20160518100625
+188.162.185.132 150 268 3224817 20160525092329
+95.153.133.204 23 27 102495 20160525123428
+95.153.132.251 89 93 255427 20160524112625
+121.42.0.64 4 52 1428805 20160521102342
+31.23.46.41 71 111 1263872 20160530135449
+31.23.133.77 30 64 835055 20160520151253
+188.162.166.42 110 373 1618535 20160523181916
+104.238.194.164 1 1 49578 20160517184641
+66.249.88.229 3 19 507082 20160525063841
+74.91.28.19 1 1 51639 20160530121340
+218.241.108.158 1 1 51406 20160528144857
+121.42.0.54 7 55 1428907 20160521102342
+54.161.220.247 13 81 1801027 20160520162711
+188.162.166.152 38 55 467787 20160530175258
+52.25.141.2 1 1 51406 20160529025652
+191.237.44.13 1 1 51406 20160527192330
+188.162.166.8 12 17 98767 20160527120503
+185.3.32.9 16 29 206964 20160531153348
+158.69.228.18 4 4 197407 20160525150954
+113.175.227.69 1 1 51639 20160531045628
+77.66.250.249 15 74 1662094 20160526143431
+23.101.131.111 79 81 1667218 20160527084217
+193.200.150.152 2 2 1860 20160517130949
+217.23.95.22 7 57 1538114 20160523061715
+217.73.194.119 113 115 5495830 20160518120409
+176.213.139.209 9 41 714590 20160531080020
+95.153.133.229 3 3 102 20160530175834
+104.45.128.87 7 57 1537579 20160524194146
+75.149.221.170 1 1 50568 20160521010624
+5.19.138.13 2 2 101974 20160529102349
+185.3.32.89 10 42 717446 20160518123042
+188.162.166.153 1 1 14091 20160527125538
+198.101.238.203 1 1 52383 20160523224442
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20160517 212 615 9301007 15
+20160518 1787 2776 34686346 18
+20160519 3178 8324 46085881 23
+20160520 3791 5560 43617081 18
+20160521 180 520 6636042 9
+20160522 100 205 2082915 3
+20160523 3167 4007 22492192 14
+20160524 851 1348 14070128 16
+20160525 801 1060 10453796 12
+20160526 1133 1891 23934481 19
+20160527 2369 6885 49110151 21
+20160528 1 1 51406 1
+20160529 10 10 248172 3
+20160530 1504 3765 22417264 25
+20160531 428 714 5558864 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 31
+5mn-15mn 16
+0s-30s 96
+30s-2mn 22
+2mn-5mn 13
+15mn-30mn 15
+30mn-1h 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 106
+/blocks/ajax_carts.php 9026 456422 6 13
+/blocks/ajax_get_favorites.php 4512 4512 0 116
+/ 1199 57191473 142 42
+/cms/ 677 12874487 13 11
+/urists/ 388 12449435 4 0
+/cabinet/ 341 10618670 2 0
+/zadaniy/ 278 10244712 4 0
+/cms/modul/desktop/ajax.php 228 111485 0 1
+/zadaniy_inf/ 227 3322754 0 0
+/new_zadanie/ 191 4496213 1 0
+/blocks/ajax_vibor_ispolnitel.php 4 0 0 0
+/font/fregat_bold-webfont.woff2 108 1664980 0 0
+/userinf/3f5928164ff74039ef2b0f5c6e62efb0/ 6 81697 0 0
+/dlya-rastorzheniya-trudovogo-dogovora-po-iniciative-rabotodatelya-mozhet-poyavitsya-novoe-osnovanie/ 2 34619 0 0
+/userinf/8352d01f84129bf682be1d8107f35654/ 20 273590 0 0
+/registraciya-akkaunta/ 20 339423 1 0
+/vakansii/ 12 173628 0 0
+/chto-takoe-brauzer/ 11 163501 0 0
+/feedback 1 14020 0 1
+/userinf/7b3dc8dd72247a5d183f4f83015f8d45/ 13 179476 0 0
+/userinf/21b27dc75f23d707bd97084e1b510559/ 14 218372 0 0
+/regpeople/ 7 94591 0 0
+/userinf/6422b9066a00bf2512e75b04dabd2c26/ 2 27570 0 0
+/blocks/ajax_whopass.php 1 1 0 0
+/cms/tinymce/plugins/moxiecut/api.php 149 45812 0 1
+/dlya-polzovateley/ 54 1211953 0 0
+/pomoshch-pri-dtp/ 19 253645 0 0
+/kak-posmotret-versiyu-brauzera/ 11 167088 1 0
+/blocks/ajax_enter_user.php 7 7 0 0
+/o-proekte/ 66 1143226 0 0
+/download.php 12 165276 0 1
+/font/fregat_bold-webfont.ttf 4 255888 0 1
+/dlya-yuristov/ 67 1183934 0 0
+/userinf/bd5847d81e65b99ad6b2ac8b9c679376/ 15 205737 0 0
+/font/fregat_italic-webfont.woff 13 409480 0 1
+/userinf/32768d38a1f94a7f4526d01d6e29752c/ 25 355516 0 0
+/index.php/login/ 1 49578 0 0
+/search/ 148 2233508 4 1
+/poluchenie-razresheniy-i-licenziy/ 1 13445 0 0
+/font/fregat_bold-webfont.woff 19 521040 1 3
+/bezopasnost-i-garantii/ 39 627311 0 0
+/obshchie-polozheniya/ 48 1017940 0 0
+/reg/ 36 506921 0 1
+/userinf/3d55a7e8d3cbfb1fc7e0a9b315840c3e/ 17 223697 0 0
+/pages/ 1 12802 0 0
+/who_pass/ 4 53384 0 0
+/missiya/ 1 14495 0 0
+/cms/modul/materials/ajax_drag.php 17 0 0 0
+/blocks/ajax_proverka_user.php 4 8 0 0
+/docs/ 114 1608811 0 0
+/reg_ok/ 24 306045 15 1
+/blocks/ajax_add_favorites.php 5 0 0 0
+/cms/modul/materials/ajax_delfile.php 5 0 0 0
+/predstavitelstvo-v-sude/ 18 241649 0 0
+/buhgalterskie-uslugi/ 10 134437 0 0
+/userinf/8c701cbfb76bca921bfc1f6e9d441edf/ 39 573080 0 0
+/FAQ/ 2 54997 0 0
+/userinf/752f45d2b59a5d2dfd3fb663f227e2cd/ 11 155200 0 0
+/pravovaya-informaciya/ 24 390972 0 0
+/userinf/e2bd54f56e51990fdb0dda99f3443629/ 2 27774 0 0
+/lichnye-soobshcheniya/ 13 213296 0 0
+/font/fregat_italic-webfont.ttf 4 264768 0 1
+/licenzionnoe-soglashenie/ 35 777302 2 2
+/userinf/3ce4b759f3ac658252a4f198b08c0ebe/ 16 224937 0 0
+/blocks/ajax_reg_user.php 25 121 0 0
+/userinf/c6b637fc8fbb563fb71742a89b3da17f/ 16 224636 0 0
+/konsultaciya/ 35 466946 0 1
+/font/fregat_regular-webfont.ttf 3 168264 0 0
+/kak-pravilno-vybrat-yurista/ 4 92086 0 0
+/userinf/462e4b0ce8287165ba26ce3202a79d0c/ 23 316381 0 0
+/im/ 74 976464 0 0
+/blog/ 41 665116 0 1
+/blocks/ajax_reg_user2.php 3 38 0 0
+/organizatory/ 1 14628 0 0
+/font/fregat_regular-webfont.woff2 108 1664744 0 0
+/userinf/ 1 12453 0 0
+/enter/ 150 1996296 1 0
+/chto-takoe-fayly-kuki-cookies/ 13 204478 0 0
+/blocks/ajax_get_city.php 97 33438 0 0
+/kak-ochistit-kesh-vremennye-dannye-i-udalit-cookies-v-brauzere/ 11 178122 0 0
+/pravovaya-informaciya 2 32842 1 1
+/userinf/QwN8P9HSeQK9PnyQWtUxF6ED3/ 9 119533 0 0
+/cms/tinymce/plugins/moxiecut/skins/lightgray/fonts/icomoon.woff 1 10096 0 0
+/chto-mogut-sdelat-kollektory-s-dolzhnikom-v-2016-g/ 6 106988 0 0
+/userinf/97e1f51d69b28b434afea5b4cf347855/ 2 27436 0 0
+/article/81/ 41 839671 3 2
+/programmu-materinskogo-kapitala-prodlyat-na-pyat-let/ 6 89001 0 0
+/feedback/ 18 248777 0 0
+/cms/admin.php 53 199322 2 0
+/userinf/079d17cd61f1483a5e182c0185d8879a/ 3 41281 0 0
+/registracionnye-deystviya/ 21 281745 0 1
+/font/fregat_italic-webfont.woff2 95 1906080 0 1
+/razrabotka-normativnyh-dokumentov-dogovorov/ 1 13602 0 0
+/kak-eto-rabotaet/ 33 495280 0 0
+/chastye-voprosy/ 16 233015 0 0
+/faq/ 69 1115116 0 0
+/cms/tinymce/skins/lightgray/fonts/tinymce.woff 9 83692 0 1
+/userinf/f0797b737245ce1d473f530f6dcce699/ 9 123400 0 0
+/reklama/ 40 632089 1 0
+/index.php 10 495780 0 0
+/userinf/67600a6b88ec201cabb3f0133ae7796e/ 44 648007 0 0
+/news/ 1 15362 0 0
+/pretenzionnaya-rabota/ 1 13467 0 0
+/blocks/ajax_del_ispolnitel.php 1 0 0 0
+/notarialnye-uslugi/ 8 107173 0 0
+/font/fregat_regular-webfont.woff 20 555904 1 0
+END_SIDER
